@@ -1,5 +1,8 @@
 
 import pandas as pd
+from numpy import sort
+from pyparsing import nums
+
 geoid_2_od={}
 geoid_flow_o={}
 geoid_flow_d={}
@@ -102,3 +105,4 @@ for label_ in social_list_dict:
     df_geoid_od[label_]=social_list_dict[label_]
 # df_geoid_od['duration_min']=duration_min_csv_list
 df_geoid_od.to_csv('ver1.csv')
+aa=nums.sort()

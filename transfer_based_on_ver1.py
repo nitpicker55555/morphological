@@ -41,6 +41,7 @@ social_list_dict={}
 x_y_dict={}
 for index, row in df_geoid_od.iterrows():
 
+
     block_id=row['id_block4b']
 
     social_each_row_dict=social_dict[block_id]
