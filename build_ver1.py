@@ -106,3 +106,4 @@ for label_ in social_list_dict:
 # df_geoid_od['duration_min']=duration_min_csv_list
 df_geoid_od.to_csv('ver1.csv')
 aa=nums.sort()
+
